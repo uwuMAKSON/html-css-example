@@ -10,3 +10,11 @@
     text-decoration: none;
     font-weight: 700;
 }
+.button:hover{
+    background-color: hsl(40, 100%, 35%);
+    border: solid 1px  hsl(40, 100%, 35%) ;
+}
+.button:active{
+    background-color: hsl(40, 100%, 40%);
+    border: solid 1px  hsl(40, 100%, 40%) ;
+}
