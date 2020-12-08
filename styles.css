@@ -15,8 +15,7 @@
     border: solid 1px  hsl(40, 100%, 35%) ;
 }
 .button:focus{
-    background-color: hsl(40, 100%, 40%);
-    border: solid 1px  hsl(40, 100%, 40%) ;
+ outline:none ;
 }
 .button:active{
     background-color: hsl(40, 100%, 40%);
