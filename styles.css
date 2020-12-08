@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 .button{
     font-size: 16px;
     padding: 6px 12px;
     display: inline-block;
     border-radius: 4px;
     background-color: hsl(40, 100%, 45%);
-    border: solid 1px  hsl(40, 100%, 45%) ;
     color: hsl(10, 100%, 100%);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     text-decoration: none;
     font-weight: 700;
 }
@@ -20,4 +20,16 @@
 .button:active{
     background-color: hsl(40, 100%, 40%);
     border: solid 1px  hsl(40, 100%, 40%) ;
+}
+.button.ok{
+    background-color: hsl(110, 100%, 45%);
+    border: solid 1px  hsl(110, 100%, 45%) ;
+}
+.button.ok:hover{
+    background-color: hsl(110, 100%, 35%);
+    border: solid 1px  hsl(110, 100%, 35%) ;
+}
+.button.ok:active{
+    background-color: hsl(110, 100%, 35%);
+    border: solid 1px  hsl(110, 100%, 35%) ;
 }
