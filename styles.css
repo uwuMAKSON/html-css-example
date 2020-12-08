@@ -33,3 +33,20 @@
     background-color: hsl(110, 100%, 35%);
     border: solid 1px  hsl(110, 100%, 35%) ;
 }
+.button.danger{
+    background-color: hsl(10, 100%, 45%);
+    border: solid 1px  hsl(10, 100%, 45%) ;
+}
+.button.danger:hover{
+    background-color: hsl(10, 100%, 35%);
+    border: solid 1px  hsl(10, 100%, 35%) ;
+}
+.button.danger:active{
+    background-color: hsl(10, 100%, 35%);
+    border: solid 1px  hsl(10, 100%, 35%) ;
+}
+.button.small{
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+}
