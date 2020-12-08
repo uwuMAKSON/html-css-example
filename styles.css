@@ -6,4 +6,7 @@
     background-color: hsl(40, 100%, 45%);
     border: solid 1px  hsl(40, 100%, 45%) ;
     color: hsl(10, 100%, 100%);
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    font-weight: 700;
 }
